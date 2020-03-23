@@ -19,15 +19,15 @@ function textChangeListener (evt) {
       ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
     
     // Text attributes
-    ctx.font = '30pt Impact';
+    ctx.font = '45pt Impact';
     ctx.textAlign = 'center';
     ctx.strokeStyle = 'black';
-    ctx.lineWidth = 3;
+    ctx.lineWidth = 1;
     ctx.fillStyle = 'white';
     
     if (topLine != null) {
-      ctx.fillText(topLine, canvas.width / 2, 40);
-      ctx.strokeText(topLine, canvas.width / 2, 40);
+      ctx.fillText(topLine, canvas.width / 2, 60);
+      ctx.strokeText(topLine, canvas.width / 2, 60);
     }
     
     if (bottomLine != null) {
